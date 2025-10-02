@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+header, nav, section, article, aside, footer {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+header {
+  background: lightblue;
+}
+
+nav {
+  background: lightgreen;
+}
+
+section {
+  float: left;
+  background: lightcoral;
+}
+
+article {
+  background: lightyellow;
+  margin-top: 10px;
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 45%;
+  background: lightgray;
+  margin-left: 10px;
+  padding-bottom: 100px;
+}
+
+footer {
+  clear: both;
+  background: lightpink;
+}
+
